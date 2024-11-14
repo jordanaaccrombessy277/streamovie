@@ -15,7 +15,7 @@ export default defineConfig({
         'login':"#6100C2",
       },
       backgroundImage:{
-         'welcomepage':`url('${path.resolve(__dirname, 'src/assets/pictures/flash.jpg')}')`
+         'welcomepage':`url('${path.resolve(__dirname, 'src/assets/pictures/flash.png')}')`
       }
     },
   },
