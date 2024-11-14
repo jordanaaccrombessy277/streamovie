@@ -1,5 +1,8 @@
 /** @type {import('tailwindcss').Config} */
-export default {
+import path from "path"
+import { defineConfig } from "vite"
+
+export default defineConfig({
   content: [
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
@@ -12,10 +15,10 @@ export default {
         'login':"#6100C2",
       },
       backgroundImage:{
-         'welcomepage':"url('./src/assets/pictures/flash.jpg')"
+         'welcomepage':`url('${path.resolve(__dirname, 'src/assets/pictures/flash.jpg')}')`
       }
     },
   },
   plugins: [],
-}
+})
 
