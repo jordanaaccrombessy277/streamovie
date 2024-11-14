@@ -12,7 +12,7 @@ export default {
         'login':"#6100C2",
       },
       backgroundImage:{
-         'welcomepage':"url('src/assets/pictures/flash.jpg')"
+         'welcomepage':"url('./src/assets/pictures/flash.jpg')"
       }
     },
   },
